@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Piedra, Papel o Tijeras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Piedra, Papel o Tijeras</h1>
+    
+    <div class="scoreboard">
+      <span>Jugador: <span id="player-score">0</span></span>
+      <span>Computadora: <span id="computer-score">0</span></span>
+    </div>
+
+    <div class="choices">
+      <button data-choice="piedra">⛰️ Piedra ⛰️</button>
+      <button data-choice="papel">📄 Papel 📄</button>
+      <button data-choice="tijeras">✂️ Tijeras ✂️</button>
+    </div>
+
+    <div id="result" class="result">Elige una opción para comenzar.</div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
